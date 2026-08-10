@@ -3,260 +3,179 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Projects | Michael Otieno Ouma</title>
-<meta name="description" content="Explore the projects built by Michael Otieno Ouma — Software Developer and IT Specialist.">
+<title>Projects | MICKY TECH SOLUTIONS</title>
+<meta name="description" content="See real-world websites and systems designed, built and deployed by Micky Tech Solutions.">
+<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-<link rel="icon" type="image/png" href="kingi.png">
-<link rel="apple-touch-icon" href="kingi.png">
-<style>
-  .referee-list {
-    display: grid;
-    gap: 14px;
-  }
-
-  .referee-card {
-    padding: 18px 20px;
-    border: 1px solid var(--border-color);
-    border-radius: 14px;
-    background: linear-gradient(135deg, rgba(255,106,0,0.10), rgba(255,106,0,0.03));
-  }
-
-  .referee-name {
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--orange);
-    margin-bottom: 6px;
-  }
-
-  .referee-phone {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    margin-top: 8px;
-    padding: 8px 12px;
-    border-radius: 999px;
-    background: var(--orange);
-    color: #fff;
-    font-weight: 700;
-    text-decoration: none;
-    transition: transform 0.2s, opacity 0.2s;
-  }
-
-  .referee-phone:hover {
-    transform: translateY(-1px);
-    opacity: 0.95;
-  }
-</style>
-<!-- Firebase for dynamic projects -->
-<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore.js"></script>
-<script src="firebase-config.js"></script>
 </head>
 <body>
-
-<div class="topline"></div>
-
-<header>
-  <nav>
-    <div class="logo">Michael Otieno Ouma</div>
-    <button class="menu-toggle" aria-label="Toggle menu">☰</button>
-    <div class="nav-links">
+<div class="topbar">
+  <div class="container">
+    <div class="topbar-left">
+      <a href="tel:+254743334950">📞 +254 743 334 950</a>
+      <a href="mailto:mickytechs74@gmail.com">✉ mickytechs74@gmail.com</a>
+      <span>Mon–Sat: 08:00–18:00</span>
+    </div>
+    <div class="topbar-right">
+      <a href="contact.html">Get a Free Quote →</a>
+    </div>
+  </div>
+</div>
+<div class="nav-wrap">
+  <div class="container nav">
+    <a href="index.html" class="brand">
+      <img src="logo.png" alt="Micky Tech Solutions logo" class="brand-mark">
+      <span>MICKY TECH<small>Solutions</small></span>
+    </a>
+    <nav class="nav-links">
       <a href="index.html">Home</a>
-      <a href="projects.html" class="active">Projects</a>
+      <a href="about.html">About</a>
+      <a href="profile.html">Profile</a>
       <a href="services.html">Services</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="blog.html">Blog</a>
+      <a href="faq.html">FAQ</a>
       <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-primary btn-sm">Get a Quote</a>
+      <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
     </div>
-    <div class="nav-right">
-      <button class="theme-toggle" aria-label="Toggle dark/light theme">🌙</button>
-      <a href="cv.pdf" class="btn btn-fill nav-cta">Download CV</a>
-    </div>
-  </nav>
-</header>
+  </div>
+</div>
 
 <section class="page-hero">
-  <div class="wrap">
-    <a href="index.html" class="back-link">← Back to Home</a>
-    <span class="eyebrow">[ Portfolio ]</span>
-    <h1 class="page-title">My Projects</h1>
-    <p class="page-desc">A curated collection of products, tools, and experiments I've built — from full-stack web apps and client sites to developer tools and beyond.</p>
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Projects</div>
+    <div class="eyebrow">🚀 Live Projects</div>
+    <h1>Work we've shipped</h1>
+    <p>Real-world digital solutions designed, built and deployed by Micky Tech Solutions — live on the internet today.</p>
   </div>
 </section>
 
-<section style="padding-top:20px;">
-  <div class="wrap">
-
-    <div class="filter-row">
-      <button class="chip active">All Projects</button>
+<section>
+  <div class="container">
+    <div class="stat-strip">
+      <div><b>4</b><span>Live Projects</span></div>
+      <div><b>100%</b><span>Deployed &amp; Active</span></div>
+      <div><b>4</b><span>Clients Served</span></div>
+      <div><b>2026</b><span>Latest Delivery</span></div>
     </div>
-
-    <div class="stats-bar">
-      <div class="stat"><div class="stat-num">3+</div><div class="stat-label">Projects Shipped</div></div>
-      <div class="stat"><div class="stat-num">3</div><div class="stat-label">Active Products</div></div>
-      <div class="stat"><div class="stat-num">1k+</div><div class="stat-label">Users Reached</div></div>
-      <div class="stat"><div class="stat-num">5</div><div class="stat-label">Technologies Used</div></div>
-    </div>
-
-    <div class="project-grid">
-
-      <div class="project-card featured">
-        <div class="browser-frame">
-          <div class="browser-topbar">
-            <div class="browser-dots"><span></span><span></span><span></span></div>
-            <div class="browser-url">ianela-technologies.example</div>
-          </div>
-          <img class="browser-shot" src="ian.png" alt="Ianela Technologies live site preview">
-        </div>
-        <div class="project-info">
-          <div class="project-meta-row"><span class="featured-tag">★ Featured</span><span>Startup · 2024</span></div>
-          <div class="project-title">Ianela Technologies</div>
-          <p class="project-desc">The company we founded — building high-performance software products and digital solutions for modern businesses. A creative tech studio where innovation meets execution.</p>
-          <div class="tag-row"><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">JavaScript</span><span class="tag">Figma</span></div>
-          <div class="project-links"><a href="ian.png">View Project</a><a href="#">Case Study</a></div>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <div class="browser-frame">
-          <div class="browser-topbar">
-            <div class="browser-dots"><span></span><span></span><span></span></div>
-            <div class="browser-url">mickytechsolutions.vercel.app</div>
-          </div>
-          <img class="browser-shot" src="mickytech.png" alt="Micky Technology Solutions live site preview">
-        </div>
-        <div class="project-meta-row"><span>Web App</span><span>2024</span></div>
-        <div class="project-title">Micky Technology Solutions</div>
-        <p class="project-desc">A comprehensive tech management system helping to solve people's tech problems at their workplace. Innovate today, transform tomorrow.</p>
-        <div class="tag-row"><span class="tag">HTML/CSS</span><span class="tag">JavaScript</span><span class="tag">Firebase</span></div>
-        <div class="project-links"><a href="https://mickytechsolutions.vercel.app" target="_blank" rel="noopener">View System</a><a href="#">Details</a></div>
-      </div>
-
-      <div class="project-card">
-        <div class="browser-frame">
-          <div class="browser-topbar">
-            <div class="browser-dots"><span></span><span></span><span></span></div>
-            <div class="browser-url">morgankahari.vercel.app</div>
-          </div>
-          <img class="browser-shot" src="morgankahari.png" alt="Morgan Kahari portfolio live site preview">
-        </div>
-        <div class="project-meta-row"><span>Client Portfolio</span><span>2024</span></div>
-        <div class="project-title">Morgan Kahari Portfolio</div>
-        <p class="project-desc">A personal portfolio site built for client Morgan Kahari — clean, fast, and tailored to showcase their work and personal brand.</p>
-        <div class="tag-row"><span class="tag">HTML/CSS</span><span class="tag">JavaScript</span></div>
-        <div class="project-links"><a href="https://morgankahari.vercel.app" target="_blank" rel="noopener">View Site</a></div>
-      </div>
-
-      <div class="project-card">
-        <div class="browser-frame">
-          <div class="browser-topbar">
-            <div class="browser-dots"><span></span><span></span><span></span></div>
-            <div class="browser-url">casoadvent.netlify.app</div>
-          </div>
-          <img class="browser-shot" src="SDA.png" alt="Casa Advent project preview">
-        </div>
-        <div class="project-meta-row"><span>Web Site</span><span>2026</span></div>
-        <div class="project-title">Casa Advent</div>
-        <p class="project-desc">A modern web presence built to highlight services and information with a polished, engaging layout for a growing organization.</p>
-        <div class="tag-row"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">Netlify</span></div>
-        <div class="project-links"><a href="https://casoadvent.netlify.app/" target="_blank" rel="noopener">View Site</a></div>
-      </div>
-
-       <div class="project-card">
-        <div class="browser-frame">
-          <div class="browser-topbar">
-            <div class="browser-dots"><span></span><span></span><span></span></div>
-            <div class="browser-url">nyangajosdachurch.vercel.app</div>
-          </div>
-          <img class="browser-shot" src="SDA.png" alt="Casa Advent project preview">
-        </div>
-        <div class="project-meta-row"><span>Web Site</span><span>2026</span></div>
-        <div class="project-title">Nyangajo SDA Church</div>
-        <p class="project-desc">A Mordern Church Website Built to help reaching the gospel across the country.</p>
-        <div class="tag-row"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">Netlify</span></div>
-        <div class="project-links"><a href="https://nyangajosdachurch.vercel.app/" target="_blank" rel="noopener">View Site</a></div>
-      </div>
-
-    
-
-      <div class="project-card">
-        <div class="browser-frame">
-          <div class="browser-topbar">
-            <div class="browser-dots"><span></span><span></span><span></span></div>
-            <div class="browser-url">android-tooling.example</div>
-          </div>
-          <img class="browser-shot" src="android.png" alt="Android Studio tooling preview">
-        </div>
-        <div class="project-meta-row"><span>Tool</span><span>2024</span></div>
-        <div class="project-title">Android Studio Tooling</div>
-        <p class="project-desc">A developer productivity setup that automates repetitive workflows, project scaffolding, and deployment pipelines.</p>
-        <div class="tag-row"><span class="tag">TypeScript</span><span class="tag">Node.js</span><span class="tag">Shell</span></div>
-        <div class="project-links"><a href="https://developer.android.com/studio" target="_blank" rel="noopener">Learn More</a><a href="#">GitHub</a></div>
-      </div>
-
-      <div class="project-card">
-        <div class="browser-frame">
-          <div class="browser-topbar">
-            <div class="browser-dots"><span></span><span></span><span></span></div>
-            <div class="browser-url">graphics-design.example</div>
-          </div>
-          <img class="browser-shot" src="poster.png" alt="Graphics design poster preview">
-        </div>
-        <div class="project-meta-row"><span>Startup</span><span>2023</span></div>
-        <div class="project-title">Graphics Design</div>
-        <p class="project-desc">Creative design work combining typography, imagery, color, and layout to communicate ideas visually and effectively.</p>
-        <div class="tag-row"><span class="tag">Next.js</span><span class="tag">Adobe Suite</span></div>
-        <div class="project-links"><a href="poster.png">View Poster</a><a href="#">GitHub</a></div>
-      </div>
-
-
-    </div>
-
-
   </div>
 </section>
 
+<section style="padding-top:0">
+  <div class="container">
+    <div class="grid grid-2">
+      <div class="card">
+        <span class="post-tag"> Portfolio Website · Live</span>
+        <h3>Michael Otieno Ouma — Developer Portfolio</h3>
+        <p>A professional personal portfolio for Michael Otieno Ouma, Full-Stack Developer and CEO of Micky Tech Solutions. Showcases skills, projects and contact channels with a clean, impact-driven aesthetic.</p>
+        <div class="team-tags"><span>HTML/CSS/JS</span><span>Portfolio</span><span>Vercel</span><span>Responsive</span></div>
+        <div class="card-links"><a href="https://michaelotieno.vercel.app/">🌎 Visit Project →</a><span style="margin-left:auto;color:var(--muted);font-size:13px">2026</span></div>
+      </div>
+      <div class="card">
+        <span class="post-tag"> Portfolio Website · Live</span>
+        <h3>Morgan Kahari — ICT Portfolio</h3>
+        <p>A sleek ICT portfolio for Morgan Kahari, an ICT Level 6 professional based in Nairobi. Highlights skills in hardware maintenance, networking, OS installation and IT support.</p>
+        <div class="team-tags"><span>HTML/CSS/JS</span><span>Portfolio</span><span>Vercel</span><span>ICT</span></div>
+        <div class="card-links"><a href="https://morgankahari.vercel.app/">🌎 Visit Project →</a><span style="margin-left:auto;color:var(--muted);font-size:13px">2026</span></div>
+      </div>
+      <div class="card">
+        <span class="post-tag"> Company Website · Live</span>
+        <h3>Micky Tech Solutions — Company Website</h3>
+        <p>The official multi-page company website for Micky Tech Solutions. Full service listings, company profile, contact forms and brochure download — deployed on Vercel.</p>
+        <div class="team-tags"><span>HTML/CSS/JS</span><span>Multi-Page</span><span>Vercel</span></div>
+        <div class="card-links"><a href="https://mickytechsolutions.vercel.app/">🌎 Visit Project →</a><span style="margin-left:auto;color:var(--muted);font-size:13px">2026</span></div>
+      </div>
+      <div class="card">
+        <span class="post-tag"> Organization Website · Live</span>
+        <h3>CASO Advent — Campus Ministry Website</h3>
+        <p>A digital home for the College Adventist Students Organization, connecting students across East Kenya Union through zones, leadership, outreach, events and resources.</p>
+        <div class="team-tags"><span>HTML/CSS/JS</span><span>Organization</span><span>Netlify</span></div>
+        <div class="card-links"><a href="https://casoadvent.netlify.app/">🌐 Visit Project →</a><span style="margin-left:auto;color:var(--muted);font-size:13px">2026</span></div>
+      </div>
+            <div class="card">
+        <span class="post-tag"> Church Website · Live</span>
+        <h3>Nyangajo sda church— Ministry Website</h3>
+        <p>A digital home for the Adventist , connecting the adventist across Kenya through the conference, leadership, outreach, events and resources.</p>
+        <div class="team-tags"><span>HTML/CSS/JS</span><span>Organization</span><span>Netlify</span></div>
+        <div class="card-links"><a href="https://nyangajosdachurch.vercel.app/">🌐 Visit Project →</a><span style="margin-left:auto;color:var(--muted);font-size:13px">2026</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:#fff;border-top:1px solid var(--line)">
+  <div class="container">
+    <div class="cta-banner">
+      <div>
+        <h2>Want us to build your project?</h2>
+        <p>From personal portfolios to full company platforms — we design and ship digital solutions that work.</p>
+      </div>
+      <a href="contact.html" class="btn btn-primary">💬 Start a Project</a>
+    </div>
+  </div>
+</section>
 <footer>
-  <div class="wrap">
+  <div class="container">
     <div class="footer-grid">
       <div>
-        <div class="footer-brand">Michael Otieno Ouma</div>
-        <p class="footer-blurb">Software Developer & CEO, Micky Tech Solutions. Building impactful solutions from Nairobi, Kenya.</p>
-        <div class="footer-socials">
-          <a href="#" aria-label="GitHub">G</a>
-          <a href="#" aria-label="LinkedIn">L</a>
-          <a href="#" aria-label="Twitter">T</a>
-          <a href="mailto:otienomichael0254@gmail.com" aria-label="Email">E</a>
+        <div class="foot-brand">
+          <img src="logo.png" alt="Micky Tech Solutions logo" class="brand-mark">
+          <span style="font-family:'Space Grotesk',sans-serif;font-weight:700;color:#fff;font-size:17px">MICKY TECH SOLUTIONS</span>
+        </div>
+        <p>Your trusted technology partner. We deliver professional tech services, custom software and quality hardware to power your business.</p>
+        <div class="social-row">
+          <a href="https://wa.me/254743334950" aria-label="WhatsApp">💬</a>
+          <a href="mailto:mickytechs74@gmail.com" aria-label="Email">✉</a>
+          <a href="tel:+254743334950" aria-label="Call">📞</a>
         </div>
       </div>
       <div>
-        <div class="footer-heading">Navigation</div>
-        <ul class="footer-list">
+        <h5>Quick Links</h5>
+        <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="profile.html">Company Profile</a></li>
           <li><a href="services.html">Services</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
         </ul>
       </div>
       <div>
-        <div class="footer-heading">Work</div>
-        <ul class="footer-list">
-          <li><a href="contact.html">Hire Me</a></li>
-          <li><a href="cv.pdf">Download CV</a></li>
-          <li><a href="https://mickytechsolutions.vercel.app" target="_blank" rel="noopener">Micky Tech Solutions</a></li>
+        <h5>Resources</h5>
+        <ul>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Legal &amp; Contact</h5>
+        <ul>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="terms-of-service.html">Terms of Service</a></li>
+          <li><a href="disclaimer.html">Disclaimer</a></li>
+          <li><a href="tel:+254743334950">+254 743 334 950</a></li>
+          <li><a href="tel:+254791781648">+254 791 781 648</a></li>
         </ul>
       </div>
     </div>
-    <div class="footer-bottom">
-      <span>© 2026 Michael Otieno Ouma. All rights reserved.</span>
-      <span><a href="privacy.html">Privacy</a> · c:\Users\MNTRH-ADMN2\Pictures\Screenshots\SDA.png · <a href="sitemap.html">Sitemap</a></span>
+    <div class="foot-bottom">
+      <span>© 2026 Micky Tech Solutions. All rights reserved.</span>
+      <span>Designed &amp; built in Nairobi, Kenya 🇰🇪</span>
     </div>
   </div>
-  <div class="ghost-text">Micky Tech Solutions</div>
 </footer>
-
+<a href="https://wa.me/254743334950?text=Hi%20MICKY%20TECH%2C%20I%20need%20tech%20assistance!" class="wa-float" aria-label="Chat on WhatsApp">💬</a>
+<button class="back-top" aria-label="Back to top">↑</button>
 <script src="script.js"></script>
-<script src="projects-loader.js"></script>
 </body>
 </html>
